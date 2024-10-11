@@ -96,7 +96,7 @@ nav .fa{
         position: absolute;
         background: #f44336;
         height: 100vh;
-        width: 200vh;
+        width: 200px;
         top: 0;
         right: -200px;
         text-align: left;
@@ -114,7 +114,9 @@ nav .fa{
         padding: 30px;
     }
 }
+
 /*------------- course ------*/
+
 .course{
     width: 80%;
     margin: auto;
@@ -159,6 +161,7 @@ h3{
     }
 }
 
+/*------------- campus ------*/
 
 .campus{
     width: 80%;
@@ -187,7 +190,7 @@ h3{
     transition: 0.5s;
 }
 .layer:hover{
-    background: rgba(226, 0, 0, 0, 7);
+    background: rgba(226, 0,0 , 0.7);
 }
 .layer h3{
     width: 100%;
@@ -204,6 +207,8 @@ h3{
     bottom: 49%;
     opacity: 1;
 }
+
+/*------------- facilities ------*/
 
 .facilities{
     width: 80%;
@@ -229,6 +234,8 @@ h3{
     margin-bottom: 15px;
     text-align: left;
 }
+
+/*------------- testimonials ------*/
 
 .testimonials{
     width: 80%;
@@ -266,6 +273,8 @@ h3{
     }
 }
 
+/*------------- cta ------*/
+
 .cta{
     margin: 100px auto;
     width: 80%;
@@ -277,7 +286,7 @@ h3{
     text-align: center;
     padding: 100px 0;
 }
-.cta{
+.cta h1{
     color: #fff;
     margin-bottom: 40px;
     padding: 0;
@@ -287,6 +296,8 @@ h3{
         font-size: 21px;
     }
 }
+
+/*------------- footer ------*/
 
 .footer{
     width: 100%;
